@@ -1,0 +1,16 @@
+# Mac OS
+**/.DS_Store
+
+# Python
+.venv
+**/__pycache__/
+
+# Tests
+.pytest_cache/
+.coverage
+reports/
+
+# Database
+.alembic/README
+mycareer.db
+mycareer_test.db

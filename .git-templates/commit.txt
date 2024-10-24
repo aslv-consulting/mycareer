@@ -1,0 +1,27 @@
+# <type>(<scope>,#<issue-id>): <subject>
+# 
+# Body (optional): A detailed description of the change (wrap at 72 characters)
+# 
+# Footer (optional): Any references or issues closed by this change
+# Closes #<issue-id>
+#
+# Types
+# ✨ feat     : A new feature
+# 🐛 fix      : A bug fix
+# 📚 docs     : Documentation changes
+# 🎨 style    : Formatting changes (spaces, semicolons, etc.)
+# ♻️ refactor  : Changes that neither fix a bug nor add a feature
+# ✅ test     : Adding or modifying tests
+# 🔧 chore    : Maintenance changes
+#
+# Scopes
+# ui       : User interface changes.
+# business : Business logic changes.
+# db       : Database changes.
+# config   : Project configuration changes.
+# docs     : Documentation updates.
+# build    : Build process changes (compilation, build scripts, etc.).
+# ci       : Continuous integration changes (CI scripts, pipeline configurations).
+# deps     : Dependency updates (additions, removals, updates).
+# tests    : Adding or modifying tests.
+# styles   : Style changes (CSS, SCSS, etc.).

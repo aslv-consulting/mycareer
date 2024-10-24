@@ -1,0 +1,5 @@
+site_name: My Docs
+site_dir: ../_site
+nav:
+  - Home: index.md
+theme: readthedocs
