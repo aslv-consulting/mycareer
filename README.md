@@ -26,7 +26,23 @@ A modern career manager.
     pip install -r .requirements/dev.txt -r .requirements/prod.txt
     ```
 
-3. Run the app
+3. Configure git to use template for commits
+
+    ```bash
+    git config commit.template ${PWD}/.git-templates/commit.txt
+    ```
+
+4. Block push if the tests or linter don't pass.
+
+    ```bash
+    # Copy pre-push script to activate it on push
+    cp .git-templates/pre-push .git/hooks
+
+    # Make script executable
+    chmod +x .git/hooks/prepush
+    ```
+
+5. Run the app
 
     ```bash
     python3 -m mycareer
