@@ -45,8 +45,8 @@ jobs:
 
       - name: Build with MkDocs
         run: |
-          chmod +x pages.sh
-          ./pages.sh
+          chmod +x .pages.sh
+          ./.pages.sh
 
       - name: Setup Pages
         id: pages
