@@ -1,0 +1,17 @@
+#!/bin/sh
+
+pytest
+
+if [ $? -ne 0 ]; then
+    echo "Les tests ont échoué. Le push est annulé."
+    exit 1
+fi
+
+pylint --rcfile=pylint.ini mycareer tests
+
+if [ $? -ne 0 ]; then
+    echo "Le linter a échoué. Le push est annulé."
+    exit 1
+fi
+
+exit 0
