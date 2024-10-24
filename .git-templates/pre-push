@@ -1,5 +1,7 @@
 #!/bin/sh
 
+source .venv/bin/activate
+
 pytest
 
 if [ $? -ne 0 ]; then
