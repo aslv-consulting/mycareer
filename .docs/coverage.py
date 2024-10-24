@@ -12,7 +12,7 @@ with open("docs/index.md", "r") as f:
     index_content = f.read()
 
 # Définir la section Coverage avec la couverture totale
-coverage_content = f"\n## Coverage\n\nTotal Coverage: {round(total_coverage)}%\n"
+coverage_content = f"\nhttps://img.shields.io/badge/coverage-{total_coverage}%25-brightgreen\n"
 
 # Ajouter la section Coverage à une section existante de index.md
 section_header = "## Coverage"  # Assurez-vous que ce titre correspond à celui de votre section existante
