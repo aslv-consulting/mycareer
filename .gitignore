@@ -14,3 +14,7 @@ reports/
 .alembic/README
 mycareer.db
 mycareer_test.db
+
+# Pyinstaller
+build/
+dist/
