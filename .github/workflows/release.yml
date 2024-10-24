@@ -5,6 +5,15 @@ on:
     tags:
       - '*'
 
+permissions:
+  contents: read
+  issues: write
+  metadata: read
+  packages: write
+  pages: write
+  pull-requests: write
+  statuses: read
+
 jobs:
   build:
     runs-on: ubuntu-latest
