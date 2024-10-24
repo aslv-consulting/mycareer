@@ -5,7 +5,7 @@ with open("../reports/coverage.json", "r") as f:
     data = json.load(f)
 
 # Calculer la couverture totale
-total_coverage = data["totals"]["percent_covered"]
+total_coverage = round(data["totals"]["percent_covered"])
 
 # Lire le contenu actuel de index.md
 with open("docs/index.md", "r") as f:
